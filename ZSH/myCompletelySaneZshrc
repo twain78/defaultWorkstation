@@ -1,0 +1,15 @@
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _expand _complete _ignored
+zstyle :compinstall filename '/home/developer/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=5000
+SAVEHIST=15000
+setopt appendhistory extendedglob
+bindkey -v
+# End of lines configured by zsh-newuser-install
